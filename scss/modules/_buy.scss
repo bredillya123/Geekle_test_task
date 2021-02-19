@@ -1,0 +1,106 @@
+.buy {
+    width: 100%;
+    height: auto;    
+    background: linear-gradient(180deg, rgba(23, 23, 22, 0) 57.87%, #171716 79.58%), url(../images/backgraond.png) no-repeat;
+    background-size: cover;
+
+    &__block {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        padding-top: 25px;
+        padding-bottom: 30px;
+        font-family: Bison;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 84px;
+
+        &--second {
+            text-align: center;
+            font-family: Bison;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 65px;
+            line-height: 78px;
+        }
+    }
+
+    &__text {
+        max-width: 393px;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 120%;
+
+        &--small {
+            padding-bottom: 10px;
+            font-family: Bison;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__button {
+        margin-top: 40px;
+        margin-bottom: 62px;
+        max-width: 360px;
+        background: #fff;
+        padding: 9px 112px;
+        font-family: Bison;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        text-decoration: none;
+        color: #171716;
+        transition: all .3s;
+
+        &:hover {
+            background: #73F9BC;
+            color: #fff;
+        }
+    }
+
+    &__picture {
+        width: 50%;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__time {
+        width: 100%;
+        height: auto;
+        border: 1px solid #73F9BC;
+        background: #171716;
+        margin-bottom: 150px;
+    }
+}
+
+.green {
+    color: #73F9BC;
+}
+
+.grey {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
