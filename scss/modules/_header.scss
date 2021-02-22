@@ -43,3 +43,9 @@
         }
     }
 }
+
+.mobile {
+    &__header {
+        display: none;
+    }
+}

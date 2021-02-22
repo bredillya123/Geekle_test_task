@@ -19,6 +19,19 @@
 <body>
 
 <header class="header">
+
+	<div class="container mobile__mar">
+		<div class="mobile__header">
+			<img src="./images/icons/logosmall.svg" alt="small logo" class="mobile__img">
+
+			<div class="burger">
+				<a href="#none" class="burger__btn">
+					<span class="burger__line"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<div class="container header__content">
 
 		<a href="#" class="logo">
@@ -60,6 +73,13 @@
 
 			<div class="buy__picture">
 				<img src="./images/man.png" alt="man" class="buy__img">
+				<a href="#" class="buy__button--mobile">buy ticket</a>
+			</div>
+
+			<div class="mobile__buy">
+				<p class="mobile__buy__text--small grey">Dive into</p>
+				<p class="mobile__buy__text grey">Cloud Architecture Optimization:</p>
+				<p class="mobile__buy__text green">Automation&Testing</p>
 			</div>
 
 		</div><!-- main info -->
@@ -105,7 +125,7 @@
 
 		<div class="people">
 
-			<div class="people__block">
+			<div class="people__block container">
 				<ul class="people__list">
 
 					<li class="people__elem">
@@ -292,6 +312,19 @@
 
 </section><!-- main content -->
 
-<!-- test far-->
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script>
+	'use strict'
+
+$(document).ready(function () {
+
+// for burger mobile version
+$('.burger__btn').on('click', function(e){
+      e.preventDefault;
+      $(this).toggleClass('burger__btn--active');
+})
+})
+</script>
 </body>
 </html>

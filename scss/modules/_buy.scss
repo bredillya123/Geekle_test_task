@@ -72,6 +72,10 @@
         color: #171716;
         transition: all .3s;
 
+        &__mobile {
+            display: none;
+        }
+
         &:hover {
             background: #73F9BC;
             color: #fff;
@@ -93,6 +97,12 @@
         border: 1px solid #73F9BC;
         background: #171716;
         margin-bottom: 150px;
+    }
+}
+
+.mobile {
+    &__buy {
+        display: none;
     }
 }
 
